@@ -1,0 +1,6 @@
+# 注意: このファイルは新規作成。現状の全依存は未整理で、ここにはLLMバックエンド用の分のみ記載している。
+# （httpx, fastapi, uvicorn, chromadb, sentence-transformers, PyQt6 等の記載は別途）
+# boto3: Bedrock用（未インストール）
+boto3
+# anthropic: Anthropic API直接利用（python3.12にインストール済み。動作確認時は1.15.0）
+anthropic
